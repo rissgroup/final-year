@@ -46,9 +46,9 @@
             <a href="#">LogIn</a>
             <i class='bx bxs-chevron-down js-arrow arrow '></i>
             <ul class="js-sub-menu sub-menu">
-              <li><a href="./login/login.html">Adminstrator</a></li>
-              <li><a href="./login/login.html">User</a></li>
-              <li><a href="./login/login.html">Teacher</a></li>
+              <li><a href="./userpanel/admin/index.php">Adminstrator</a></li>
+              <li><a href="./userpanel/index.php">User</a></li>
+              <li><a href="./userpanel/index.php">Teacher</a></li>
            </ul>
           </li>
         </ul>
