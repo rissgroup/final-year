@@ -52,9 +52,9 @@
             <a href="#">Log In</a>
             <i class='bx bxs-chevron-down js-arrow arrow '></i>
             <ul class="js-sub-menu sub-menu">
-              <li><a href="./login/login.html">Adminstrator</a></li>
-              <li><a href="./login/login.html">User</a></li>
-              <li><a href="./login/login.html">Teacher</a></li>
+              <li><a href="./userpanel/admin/index.php">Adminstrator</a></li>
+              <li><a href="./userpanel/index.php">User</a></li>
+              <li><a href="./userpanel/index.php">Teacher</a></li>
             </ul>
           </li>
         </ul>
@@ -66,7 +66,7 @@
 <section class="home" id="home">
   <h1>Education from Home</h1>
   <p>Boost up your skills with a new way of learning .Best educational plateform that is providing best services to you anywhere anytime.we aim to empower students to change the world with unlock his skills.</p>
-  <a href="/login/login.html"><button class="btn">sign up </button></a>
+  <a href="./userpanel/index.php"><button class="btn">sign up </button></a>
 
 </section>
 

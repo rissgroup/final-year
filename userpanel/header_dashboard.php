@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
-        <title>CHMSC LMS</title>
-		<meta name="description" content="Learning Management System">
+        <title>Learning and Earning</title>
+		<meta name="description" content="Learning and Earning">
 		<meta name="keywords" content="CHMSC LMS,CHMSCLMS,CHMSC,LMS,CHMSCLMS.COMXA">
 		<meta name="author" content="JOHN KEVIN LORAYNA">
 		<meta charset="UTF-8">
