@@ -177,8 +177,9 @@ body {
 
 }
 .alert-info{
-	background-color: #0c0c0c;
-    border-color: #050505;
+
+		background-color: #000000;
+    border-color: #000000;
     color: #fff;
 }
 .nav-list > .active > a, .nav-list > .active > a:hover, .nav-list > .active > a:focus {
