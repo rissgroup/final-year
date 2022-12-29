@@ -1,6 +1,7 @@
 <?php include('header_dashboard.php'); ?>
 <?php include('session.php'); ?>
-    <body id="class_div">
+<html>
+    <body class="bg-dash" id="class_div">
 		<?php include('navbar_teacher.php'); ?>
         <div class="container-fluid">
             <div class="row-fluid">

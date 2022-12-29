@@ -1,6 +1,6 @@
 <?php  include('header.php'); ?>
 <?php  include('session.php'); ?>
-    <body >
+    <body>
 		<?php include('navbar.php') ?>
         <div class="container-fluid">
             <div class="row-fluid">

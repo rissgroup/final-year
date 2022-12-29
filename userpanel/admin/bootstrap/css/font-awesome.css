@@ -182,7 +182,8 @@ ul.icons li [class*=" icon-"] {
 }
 .pull-right {
   float: right;
-  color: #eeeeee;
+  /* color: #eeeeee; */
+  color: black;
 }
 .pull-left {
   float: left;

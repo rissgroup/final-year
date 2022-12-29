@@ -14,7 +14,7 @@
 						<div class="span8">
 						
 								<div class="title">
-							<p class="chmsc">Online learning and Earning</p>
+							<p class="chmsc">Online Learning and Earning</p>
 							<h3>
 
 							<p>Online Learning and Earning</p>
@@ -31,8 +31,8 @@
 						<br>
 								<div class="motto">
 												<p>Online Learning and Earning:</p>
-												<p>Boost Up Your Skill with a new way of Learning</p>
-												<p>Best educational plateform that is providing best services to you anywhere anytime.we aim to empower students to change the world with unlock his skills.</p>
+												<p>Boost Up Your Skills With A New Way Of Learning .Best Educational Plateform That Is Providing Best Services To You Anywhere Anytime. </p>
+												<p>We Aim To Empower Students To Change The World With Unlock His Skills.</p>
 								</div>		
 						</div>		
 				</div>
