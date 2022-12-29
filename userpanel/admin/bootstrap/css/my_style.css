@@ -141,7 +141,8 @@ th {
 }
 .breadcrumb > li  a{
    cursor: default;
-   color:#333 !important;
+   /* color:#333 !important; */
+   color: #000;
 }
 .breadcrumb > li  a:hover{
 	text-decoration:none;
@@ -154,7 +155,8 @@ th {
 	margin-left:0;
 }
 .modal-header {
-    background: none repeat scroll 0 0 #1D1D1D;
+    /* background: none repeat scroll 0 0 #1D1D1D; */
+	background:black;
     color: #FFFFFF;
 }
 	.edit{
@@ -198,7 +200,8 @@ body {
     border-left: 0 solid #F2F2F2 !important;
 }
 footer{
-	color: #333333 !important;
+	/* color: #333333 !important; */
+	color: #000 !important ;
     font-weight: bold !important;
     margin-right: 35px !important;
 }

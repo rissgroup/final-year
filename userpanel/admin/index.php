@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
-  <body id="login">
-    <div class="container">
+  <body class="bg-dash" id="login">
+    <div class="container ">
 
       <form id="login_form" class="form-signin" method="post">
         <h3 class="form-signin-heading"><i class="icon-lock"></i> Please Login</h3>
@@ -21,7 +21,7 @@
 						success: function(html){
 						if(html=='true')
 						{
-						$.jGrowl("Welcome to Online Learning & Earning", { header: 'Access Granted' });
+						$.jGrowl("Welcome to Online Learning and Earning", { header: 'Access Granted' });
 						var delay = 2000;
 							setTimeout(function(){ window.location = 'dashboard.php'  }, delay);  
 						}

@@ -1,8 +1,8 @@
 <center>
 		<footer>
 		
-		<p>All Rights are reserved.</p>
-			<!-- <p>Programmed by: John Kevin Lorayna BSIS 4-A</p> -->
+		<p>All rights are reserved</p>
+		
 		</footer>
 </center>
 

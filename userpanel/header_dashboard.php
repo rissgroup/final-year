@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
-        <title>Learning and Earning</title>
-		<meta name="description" content="Learning and Earning">
-		<meta name="keywords" content="CHMSC LMS,CHMSCLMS,CHMSC,LMS,CHMSCLMS.COMXA">
-		<meta name="author" content="JOHN KEVIN LORAYNA">
+        <title>Online Learning And Earning</title>
+		<meta name="description" content="Online Learning and Earning">
+		<meta name="keywords" content="OLAE LMS,Online Student Portal,Online Learning System">
+		<meta name="author" content="Online Learning and Earning">
 		<meta charset="UTF-8">
         <!-- Bootstrap -->
 		<link href="admin/images/favicon.ico" rel="icon" type="image">
