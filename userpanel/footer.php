@@ -1,7 +1,7 @@
 <center>
 		<footer>
 		
-		<p>All rights are reserve</p>
+		<p>All rights are reserved</p>
 		
 		</footer>
 </center>
