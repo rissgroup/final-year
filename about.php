@@ -1,67 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <title>ONLINE LEARNING AND EARNING by iqra </title>
-    <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="../style.css"> -->
-    <!-- Boxicons CDN Link -->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-  />
-   <!-- fontawesome Link -->
-   <link rel="stylesheet" href="http://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-   </head>
-<body>
-  <nav>
-    <div class="navbar">
-      <i class='bx bx-menu'></i>
-      <div class="logo"><a href="#">Online Learning and Earning</a></div>
-      <div class="nav-links">
-        <div class="sidebar-logo">
-          <span class="logo-name">Online Learning and Earning</span>
-          <i class='bx bx-x' ></i>
-        </div>
-        <ul class="links">
-          <li><a href="./index.php">HOME</a></li>
-          <li>
-            <a href="./courses.html">COURSES</a>
-            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
-            <ul class="htmlCss-sub-menu sub-menu">
-              <li><a href="./web.html">Web Development</a></li>
-              <li><a href="./app.html">App Development</a></li>
-              <li><a href="./ai.html">Artificial Intelligence</a></li>
-              <li class="more">
-                <span><a href="#">More</a>
-                <i class='bx bxs-chevron-right arrow more-arrow'></i>
-              </span>
-                <ul class="more-sub-menu sub-menu">
-                  <li><a href="./graphic.html">Graphic Designing</a></li>
-                  <li><a href="./game.html">Game Development</a></li>
-                  <li><a href="./digi.html"> Digital Markiting</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#">ABOUT US</a></li>
-          <li><a href="./contact.php">CONTACT US</a></li>
-          <li>
-            <a href="#">LOGIN</a>
-            <i class='bx bxs-chevron-down js-arrow arrow '></i>
-            <ul class="js-sub-menu sub-menu">
-              <li><a href="./userpanel/admin/index.php">Adminstrator</a></li>
-              <li><a href="./userpanel/index.php">User</a></li>
-              <li><a href="./userpanel/index.php">Teacher</a></li>
-           </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<?php include 'header.php';?>
  <!-- about us page  section starts  -->
 <section class="ABOUT" id="ABOUT">
     <h2>about us page</h2>
@@ -290,35 +227,5 @@
   </div>
   <!-- </section> -->
   <!-- end testimonils -->
+  <?php include 'footer.php';?>
 
-
-
-
-<!-- footer section starts  -->
-
-<div class="footer">
-
-  <div class="box-container">
-      <div class="box">
-          <h3>quick links</h3>
-          <a href="./index.php">home</a>
-          <a href="./courses.html">course</a>
-          <a href="./about.html">about</a>
-          <a href="./contact.php">contact</a>
-      </div>
-      <div class="box">
-          <h3>contact info</h3>
-          <p> <i class="fas fa-map-marker-alt"></i>Lahore, Pakistan </p>
-          <p> <i class="fas fa-envelope"></i> Online learning and earning@gmail.com </p>
-          <p> <i class="fas fa-phone"></i> 0562929978 </p>
-      </div>
-  </div>
-  <h1 class="credit">copyright 2022 to 2023  |  all rights reserved. </h1>
-</div>
-<!-- footer section ends -->
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script src="./script.js"></script>
-
-</body>
-</html>
