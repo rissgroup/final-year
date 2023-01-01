@@ -291,9 +291,9 @@ $conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
           <a href="web.html" class="title"><?php echo $row['course_name']; ?></a>
           <p><?php echo $row['course_description']; ?></p>
           <div class="info">
-              <h3> <i class="far fa-clock"></i> <?php echo $row['course_hours']; ?> hours</h3>
-              <h3> <i class="far fa-calendar-alt"></i> <?php echo $row['course_month']; ?> months</h3>
-              <h3> <i class="fas fa-book"></i><?php echo $row['course_mod']; ?> modules</h3>
+              <h3> <i class="far fa-clock"></i> <?php echo $row['course_hours']; ?> Hours</h3>
+              <h3> <i class="far fa-calendar-alt"></i> <?php echo $row['course_month']; ?> Months</h3>
+              <h3> <i class="fas fa-book"></i><?php echo $row['course_mod']; ?> Modules</h3>
           </div>
       </div>
   </div>
