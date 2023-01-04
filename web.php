@@ -1,11 +1,25 @@
 <?php include 'header.php';?>
+<?php $name=$_GET['course_name'];?>
+<?php
+
+$conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
+											$course_query = mysqli_query($conn,"select * from courses where course_name = '$name'")or die(mysqli_error());
+											while($row = mysqli_fetch_array($course_query)){
+											$id = $row['id'];
+											
+                      $image =$row['course_image'];
+                      
+                      
+                      } ?> 
+
+
 <!-- about us page  section starts  -->
 <section class="web" id="web">
-    <h2>Web Development</h2>
+    <h2><?php echo $name;?></h2>
 </section>
 <section id="course-inner">
     <div class="overview">
-        <img class="course-img" src="./img/web.jpg" alt="">
+        <img class="course-img" src="./userpanel/admin/<?php echo $image?>" alt="">
         <div class="course-head">
             <div class="c-name">
                 <h3>Web Development Course</h3>
@@ -21,7 +35,7 @@
         </div>
         <h3>Instructor</h3>
         <div class="tutor">
-          <img src="./img/team1.png" alt="">
+          <img src="" alt="">
           <div class="tutor-det">
             <h5>Ali Raza</h5>
             <p>web developer at Google</p>
