@@ -13,11 +13,11 @@
                                             <select name="class_id"  class="" required>
                                              	<option></option>
 											<?php
-											$query = mysqli_query($conn,"select * from class order by class_name");
+											$query = mysqli_query($conn,"select * from courses order by course_name");
 											while($row = mysqli_fetch_array($query)){
 											
 											?>
-											<option value="<?php echo $row['class_id']; ?>"><?php echo $row['class_name']; ?></option>
+											<option value="<?php echo $row['course_code']; ?>"><?php echo $row['course_code']; ?></option>
 											<?php } ?>
                                             </select>
                                           </div>

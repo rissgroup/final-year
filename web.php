@@ -8,6 +8,13 @@ $conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
 											$id = $row['id'];
 											
                       $image =$row['course_image'];
+                      $course_name =$row['course_name'];
+                      $course_code =$row['course_code'];
+                      $course_rating =$row['course_rating']; 
+                      $course_description =$row['course_description'];
+                      $course_hours =$row['course_hours'];
+                      $course_monrth =$row['course_month'];
+                      $course_mod =$row['course_mod'];
                       
                       
                       } ?> 
@@ -22,7 +29,7 @@ $conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
         <img class="course-img" src="./userpanel/admin/<?php echo $image?>" alt="">
         <div class="course-head">
             <div class="c-name">
-                <h3>Web Development Course</h3>
+                <h3><?php echo  $course_name;?></h3>
                 <div class="star">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -30,7 +37,7 @@ $conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>Web development refers in general to the tasks associated with developing websites for hosting via intranet or internet.</p>
+                <p><?php echo  $course_description; ?></p>
             </div>
         </div>
         <h3>Instructor</h3>
@@ -59,7 +66,7 @@ $conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
     </div>
     <div class="enroll">
       <h3>This course include:</h3>
-          <p><i class="far fa-video"></i> 52 hours vedios</p>
+          <p><i class="far fa-video"></i><?php echo  $course_hours; ?> video hours</p>
           <p><i class="far fa-newspaper"></i> 75 articles</p>
           <p><i class="far fa-cloud-download"></i> downloadable resources</p>
           <p><i class="far fa-infinity"></i> full life time access</p>

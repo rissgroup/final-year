@@ -24,6 +24,15 @@
 									<input name="image" class="input-file uniform_on" id="fileInput" type="file" required>
 								</div>
 								</div>
+
+
+								<div class="control-group">
+											<label class="control-label" for="inputEmail">Course Code</label>
+											<div class="controls">
+											<input type="text" name="course_code" id="inputEmail" placeholder="Course Rating">
+											</div>
+										</div>
+
 								
 								<div class="control-group">
 											<label class="control-label" for="inputEmail">Course Rating</label>
@@ -105,6 +114,7 @@
 											$course_hours = $_POST['course_hours'];
 											$course_month = $_POST['course_month'];
 											$course_mod = $_POST['course_mod'];	
+											$course_code = $_POST['course_code'];	
 										
 										
 										
@@ -117,7 +127,7 @@
 										</script>
 										<?php
 										}else{
-										mysqli_query($conn,"INSERT INTO `courses`( `course_image`, `course_rating`, `course_name`, `course_description`, `course_hours`, `course_month`, `course_mod`) values('$location','$course_rating','$course_name','$course_description','$course_hours','$course_month','$course_mod')")or die(mysqli_error());
+										mysqli_query($conn,"INSERT INTO `courses`( `course_code`,`course_image`, `course_rating`, `course_name`, `course_description`, `course_hours`, `course_month`, `course_mod`) values(' $course_code','$location','$course_rating','$course_name','$course_description','$course_hours','$course_month','$course_mod')")or die(mysqli_error());
 										
 										
 										mysqli_query($conn,"insert into activity_log (date,username,action) values(NOW(),'$user_username','Add Subject $course_name')")or die(mysqli_error());
