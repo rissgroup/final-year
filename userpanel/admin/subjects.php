@@ -13,7 +13,7 @@
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Subject List</div>
+                                <div class="muted pull-left">Course List</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -24,25 +24,25 @@
 										<thead>
 										  <tr>
 											    <th></th>
-												<th>Subject Code</th>
-												<th>Subject Title</th>
+												<th>Course Code</th>
+												<th>Course name</th>
 												<th></th>
 										   </tr>
 										</thead>
 										<tbody>
 											
 												<?php
-											$subject_query = mysqli_query($conn,"select * from subject")or die(mysqli_error());
+											$subject_query = mysqli_query($conn,"select * from courses")or die(mysqli_error());
 											while($row = mysqli_fetch_array($subject_query)){
-											$id = $row['subject_id'];
+											$id = $row['course_code'];
 											?>
 										
 											<tr>
 													<td width="30">
 													<input id="optionsCheckbox" class="uniform_on" name="selector[]" type="checkbox" value="<?php echo $id; ?>">
 													</td>
-													<td><?php echo $row['subject_code']; ?></td>
-													<td><?php echo $row['subject_title']; ?></td>
+													<td><?php echo $row['course_code']; ?></td>
+													<td><?php echo $row['course_name']; ?></td>
 												
 													<td width="30"><a href="edit_subject.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-pencil"></i> </a></td>
 										</tr>
