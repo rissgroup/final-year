@@ -12,13 +12,20 @@
 											<input type="hidden" name="session_id" value="<?php echo $session_id; ?>">
                                             <select name="class_id"  class="" required>
                                              	<option></option>
-											<?php
-											$query = mysqli_query($conn,"select * from courses order by course_name");
-											while($row = mysqli_fetch_array($query)){
-											
-											?>
-											<option value="<?php echo $row['course_code']; ?>"><?php echo $row['course_code']; ?></option>
-											<?php } ?>
+												 <?php
+                                            $query = mysqli_query($conn,"select * from class order by class_name");
+                                            while($row = mysqli_fetch_array($query)){
+                                            ?>
+                                            <option value="<?php echo $row['class_id']; ?>"><?php echo $row['class_name']; ?></option>
+                                            <?php } ?>
+
+
+
+
+
+
+
+
                                             </select>
                                           </div>
                                         </div>
@@ -28,12 +35,12 @@
                                           <div class="controls">
                                             <select name="subject_id"  class="" required>
                                              	<option></option>
-											<?php
-											$query = mysqli_query($conn,"select * from subject order by subject_code");
+												 <?php
+											$query = mysqli_query($conn,"select * from courses order by course_name");
 											while($row = mysqli_fetch_array($query)){
 											
 											?>
-											<option value="<?php echo $row['subject_id']; ?>"><?php echo $row['subject_code']; ?></option>
+											<option value="<?php echo $row['id']; ?>"><?php echo $row['course_name']; ?></option>
 											<?php } ?>
                                             </select>
                                           </div>
