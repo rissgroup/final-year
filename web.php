@@ -1,7 +1,23 @@
 <?php include 'header.php';?>
 <?php $name=$_GET['course_name'];?>
-<?php
 
+
+
+
+<?php
+if (isset($_POST['send'])){
+  $firstname = $_POST['firstname'];
+		$lastname = $_POST['lastname'];
+    $q1 = $_POST['q1'];
+    $q2 = $_POST['q2'];
+    $q3 = $_POST['q3'];
+    $q4 = $_POST['q4'];
+    $q5 = $_POST['q5'];
+    $conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
+    $course_query = mysqli_query($conn,"INSERT INTO `enrollquiz`(`firstname`, `lasttname`,`q1`,`q2`,`q3`,`q4`,`q5`,`status`) VALUES ('$firstname','$lastname','$q1','$q2','$q3', '$q4', '$q5','1')")or die(mysqli_error());
+  header("Location: ./userpanel/");
+  
+}
 $conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
 											$course_query = mysqli_query($conn,"select * from courses where course_name = '$name'")or die(mysqli_error());
 											while($row = mysqli_fetch_array($course_query)){
@@ -73,7 +89,92 @@ $conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
           <p><i class="far fa-mobile-alt"></i> access on laptop and  mobile</p>
           <p><i class="far fa-paperclip"></i> assingments</p>
           <p><i class="far fa-trophy-alt"></i>certificate of complation</p>
-            <a href="#"><button class="btn">Enroll Now</button></a>
+
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Enroll Now
+  </button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+        
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form  method= post action="#">
+          <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Javascript is an _______ language?</label>
+                <select id="disabledSelect" name='q1'class="form-select">
+                  <option>Object-Oriented</option>
+                  <option>Object based</option>
+                  <option>Procedural</option>
+                  <option>None of above</option>
+                 
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Html stands for</label>
+                <select id="disabledSelect" name='q2'class="form-select">
+                  <option>Hypertext markup language</option>
+                  <option>Hyphan markup language</option>
+                  <option>hypertext makeup language </option>
+                  <option>Hyphantext markup language</option>
+                 
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="disabledSelect" class="form-label">How many types of lists in HTML?</label>
+                <select id="disabledSelect" name='q3'class="form-select">
+                  <option> 2</option>
+                  <option> 4</option>
+                  <option> 5</option>
+                  <option> 3</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="disabledSelect" class="form-label">In how many ways can CSS be written in?</label>
+                <select id="disabledSelect" name='q4'class="form-select">
+                  <option> 1</option>
+                  <option> 2</option>
+                  <option> 3</option>
+                  <option> 4</option>
+                  <option> 5</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="disabledSelect" class="form-label">The full form of CSS is:</label>
+                <select id="disabledSelect" name='q5'class="form-select">
+                  <option>cascading stylesheet</option>
+                  <option>Coloured special sheet</option>
+                  <option>Coloured and stylesheet</option>
+                  <option>None of these</option>
+                 
+                </select>
+              </div>
+              <label for="input" class="form-label">First Name</label>
+              <input class="form-control" type="text" name="firstname" placeholder="First Name" aria-label="default input example">
+              <label for="input" class="form-label">Last Name</label>
+              <input class="form-control" type="text" name="lastname" placeholder="Last Name" aria-label="default input example">
+              <br>
+              <br>
+              <input class="form-control" type="Submit"  name="send"aria-label="default input example">
+          </form>
+           
+       
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
     </div>
 </section>
 <?php include 'footer.php';?>

@@ -22,6 +22,9 @@
   <h1 class="credit">copyright 2022 to 2023  |  all rights reserved. </h1>
 </div>
 <!-- footer section ends -->
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
   <script src="./script.js"></script>
