@@ -13,6 +13,9 @@
 				<li class="">
 				<a href="reg_students.php">Registered</a>
 				</li>
+				<li class="">
+				<a href="applystudents.php">Applied</a>
+				</li>
 				</ul>
 	</div>
 	<?php include('modal_delete.php'); ?>

@@ -48,8 +48,11 @@
 													<p class="class"><?php echo $row['lastname'];?></p>
 													<p class="subject"><?php echo $row['firstname']; ?></p>
 													<a  href="#<?php echo $id; ?>" data-toggle="modal"><i class="icon-trash"></i> Remove</a>	
+													<a  href="./certification/index.php?firstname=<?php echo $row['firstname'];?>" ><i class="fa fa-eye"></i> View Certificate</a>
+													<a  href="./certification/form_certificate.php?firstname=<?php echo $row['firstname'];?>" ><i class="icon-plus"></i> Issue Certificate</a>
 											</li>
 											<?php include("remove_student_modal.php"); ?>
+											
 											<?php } ?>
 									</ul>
 												<script type="text/javascript">

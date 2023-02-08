@@ -1055,3 +1055,53 @@ font-size: 12px;
   border-radius: 4px;
 }
 /* Contact Section Css End  */
+
+/* popup section */
+*,
+*:before,
+*:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #0a677e;
+}
+.popup{
+  background-color: #ffffff;
+  width: 450px;
+  padding: 30px, 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 100%;
+  border-radius: 8px;
+  display: none;
+
+}
+.popup button{
+  display: block;
+  margin: 0 0 20px auto;
+  background-color: transparent;
+  font-size: 30p;
+  color: #c5c5c5c5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.popup p{
+  font-size: 14px;
+  text-align: justify;
+  margin: 20px 0;
+
+}
+a{
+  display: block;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: #0a677e;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 0;
+}
