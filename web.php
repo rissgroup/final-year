@@ -92,7 +92,7 @@ $conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
 
 
   <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
   Enroll Now
   </button>
 
@@ -113,7 +113,6 @@ $conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
                   <option>Object based</option>
                   <option>Procedural</option>
                   <option>None of above</option>
-                 
                 </select>
               </div>
               <div class="mb-3">
@@ -163,18 +162,9 @@ $conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
               <br>
               <input class="form-control" type="Submit"  name="send"aria-label="default input example">
           </form>
-           
-       
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-    </div>
+</div>
 </section>
 <?php include 'footer.php';?>

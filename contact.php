@@ -4,7 +4,7 @@
     <!--alert messages start-->
     <?php echo $alert; ?>
     <!--alert messages end-->
-    <section class="ABOUT" id="ABOUT">
+<section class="ABOUT" id="ABOUT">
     <h2>Contact Us Page</h2>
 </section>
     <!--contact section start-->

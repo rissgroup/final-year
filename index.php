@@ -52,7 +52,7 @@
       <h3>Why Choose Us?</h3>
       <p>Education underpins all social progress. Our aim is to harness technology to make all education and skills training available to anyone, anywhere for free.We believe that free education, more than anything, has the power to break through boundaries and transform lives.</p>
       <p>Education underpins all social progress. Our aim is to harness technology to make all education and skills training available to anyone, anywhere for free.We believe that free education, more than anything, has the power to break through boundaries and transform lives.</p>
-      <a href="about.html"><button class="btn">Learn More</button></a>
+      <a href="about.php"><button class="btn">Learn More</button></a>
   </div>
 
 </section>
@@ -60,10 +60,14 @@
 <h1>Our Expert Teacher</h1>
 
 <!-- Sliderr start -->
-<div class="slide-container swiper">
-  <div class="slide-content">
-      <div class="card-wrapper swiper-wrapper">
-          <div class="card swiper-slide">
+
+
+
+<div class="container">
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      <div class="card swiper-slide">
               <div class="image-content">
                   <span class="overlay"></span>
 
@@ -73,13 +77,16 @@
               </div>
 
               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
+                  <h2 class="name">Ali Raza</h2>
                   <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                  <button class="button">View More</button>
+                  <!-- <button class="btn"></button> -->
+                   <!-- Button trigger modal -->
+                 <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">View More</button>
               </div>
           </div>
-          <div class="card swiper-slide">
+      </div>
+      <div class="swiper-slide">
+      <div class="card swiper-slide">
               <div class="image-content">
                   <span class="overlay"></span>
 
@@ -89,13 +96,14 @@
               </div>
 
               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
+                  <h2 class="name">Shanaya Ali</h2>
                   <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                  <button class="button">View More</button>
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">View More</button>
               </div>
           </div>
-          <div class="card swiper-slide">
+      </div>
+      <div class="swiper-slide">
+      <div class="card swiper-slide">
               <div class="image-content">
                   <span class="overlay"></span>
 
@@ -105,13 +113,14 @@
               </div>
 
               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
+                  <h2 class="name">David Danial </h2>
                   <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                  <button class="button">View More</button>
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">View More</button>
               </div>
           </div>
-          <div class="card swiper-slide">
+      </div>
+      <div class="swiper-slide">
+      <div class="card swiper-slide">
               <div class="image-content">
                   <span class="overlay"></span>
 
@@ -121,13 +130,14 @@
               </div>
 
               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
+                  <h2 class="name">Jam Jhon</h2>
                   <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                  <button class="button">View More</button>
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">View More</button>
               </div>
           </div>
-          <div class="card swiper-slide">
+      </div>
+      <div class="swiper-slide">
+      <div class="card swiper-slide">
               <div class="image-content">
                   <span class="overlay"></span>
 
@@ -137,13 +147,14 @@
               </div>
 
               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
+                  <h2 class="name">Malaika</h2>
                   <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                  <button class="button">View More</button>
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">View More</button>
               </div>
           </div>
-          <div class="card swiper-slide">
+      </div>
+      <div class="swiper-slide">
+      <div class="card swiper-slide">
               <div class="image-content">
                   <span class="overlay"></span>
 
@@ -153,13 +164,14 @@
               </div>
 
               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
+                  <h2 class="name">Warn Bit</h2>
                   <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                  <button class="button">View More</button>
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">View More</button>
               </div>
           </div>
-          <div class="card swiper-slide">
+      </div>
+      <div class="swiper-slide">
+      <div class="card swiper-slide">
               <div class="image-content">
                   <span class="overlay"></span>
 
@@ -169,13 +181,14 @@
               </div>
 
               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
+                  <h2 class="name">Murtaza</h2>
                   <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                  <button class="button">View More</button>
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">View More</button>
               </div>
           </div>
-          <div class="card swiper-slide">
+      </div>
+      <div class="swiper-slide">
+      <div class="card swiper-slide">
               <div class="image-content">
                   <span class="overlay"></span>
 
@@ -185,13 +198,14 @@
               </div>
 
               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
+                  <h2 class="name">Tabasum Zahra</h2>
                   <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                  <button class="button">View More</button>
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">View More</button>
               </div>
           </div>
-          <div class="card swiper-slide">
+      </div>
+      <div class="swiper-slide">
+      <div class="card swiper-slide">
               <div class="image-content">
                   <span class="overlay"></span>
 
@@ -201,18 +215,40 @@
               </div>
 
               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
+                  <h2 class="name">Saim </h2>
                   <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                  <button class="button">View More</button>
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">View More</button>
               </div>
           </div>
       </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
   </div>
+  <!-- box_model start here -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+        
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-8">
+            <img src="./img/profile5.jpg" alt="image_here" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+              <h2 class="pt-3">Teacher Name</h2>
+              <h4>teacher feild</h4>
+              <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam culpa consequatur deserunt. Sequi eligendi esse, dolor at distinctio error, quia ratione doloribus excepturi voluptates ea recusandae repellat earum maiores consequuntur.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-  <div class="swiper-button-next swiper-navBtn"></div>
-  <div class="swiper-button-prev swiper-navBtn"></div>
-  <div class="swiper-pagination"></div>
 </div>
 <!-- Sliderr  End-->
 
@@ -224,6 +260,7 @@
     <div class="container">
       <h1>Testimonials</h1>
         <div class="testim-content">
+      <a href="testimonial.php">
         <div class="testim-box">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure non reiciendis reprehenderit? Dicta eaque illo ut beatae alias quod, distinctio ad, asperiores vitae culpa qui nisi rerum debitis modi.</p>
           <div class="testim-box-content">
@@ -232,26 +269,30 @@
             <p>FrontEnd Developer</p>
           </div>
         </div>
-          <div class="testim-box">
-  
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure non reiciendis reprehenderit? Dicta eaque illo ut beatae alias quod, distinctio ad, asperiores vitae culpa qui nisi rerum debitis modi.</p>
-            <div class="testim-box-content">
-              <img src="https://i.postimg.cc/rpRQv1sc/3.jpg" alt="">
-              <h3>Mahmoud Mohamed</h3>
-              <p>FrontEnd Developer</p>
-            </div>
+      </a>
+       
+      <a href="testimonial.php">
+        <div class="testim-box">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure non reiciendis reprehenderit? Dicta eaque illo ut beatae alias quod, distinctio ad, asperiores vitae culpa qui nisi rerum debitis modi.</p>
+          <div class="testim-box-content">
+           <img src="https://i.postimg.cc/rpRQv1sc/3.jpg" alt="">
+            <h3>Mahmoud Mohamed</h3>
+            <p>FrontEnd Developer</p>
           </div>
-            <div class="testim-box">
-    
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure non reiciendis reprehenderit? Dicta eaque illo ut beatae alias quod, distinctio ad, asperiores vitae culpa qui nisi rerum debitis modi.</p>
-              <div class="testim-box-content">
-                <img src="https://i.postimg.cc/rpRQv1sc/3.jpg" alt="">
-                <h3>Mahmoud Mohamed</h3>
-                <p>FrontEnd Developer</p>
-              </div>
-            </div>
-  
+        </div>
+      </a>
+
+      <a href="testimonial.php">
+        <div class="testim-box">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure non reiciendis reprehenderit? Dicta eaque illo ut beatae alias quod, distinctio ad, asperiores vitae culpa qui nisi rerum debitis modi.</p>
+          <div class="testim-box-content">
+           <img src="https://i.postimg.cc/rpRQv1sc/3.jpg" alt="">
+            <h3>Mahmoud Mohamed</h3>
+            <p>FrontEnd Developer</p>
           </div>
+        </div>
+      </a>
+    </div>
     </div>
   </div>
   <!-- </section> -->
@@ -288,7 +329,7 @@ $conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
               <i class="fas fa-star"></i>
               <i class="fas fa-star-half"></i>
           </div>
-          <a href="web.html" class="title"><?php echo $row['course_name']; ?></a>
+          <a href="web.php?course_name=<?php echo $row['course_name'];?>" class="title"><?php echo $row['course_name']; ?></a>
           <p><?php echo $row['course_description']; ?></p>
           <div class="info">
               <h3> <i class="far fa-clock"></i> <?php echo $row['course_hours']; ?> Hours</h3>
@@ -317,7 +358,7 @@ $conn = mysqli_connect('localhost','root','','capstone') or die(mysqli_error());
         <div><i class="fas fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM</div>
       </div>
       <div class="contact-form">
-        <h2>Contact Us</h2>
+        <h1>Contact Us</h1>
         <form class="contact" action="" method="post">
           <input type="text" name="name" class="text-box" placeholder="Your Name" required>
           <input type="email" name="email" class="text-box" placeholder="Your Email" required>
